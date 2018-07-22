@@ -8,4 +8,51 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DetailAppTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/ThemeActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/ThemeActionBar</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ThemeActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/colorTrans</item>
+        <item name="background">@color/colorTrans</item>
+    </style>
+
+    <style name="DetailStyle">
+        <item name="android:layout_marginTop">@dimen/detail_vertical_margin</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="HeadingStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="SeparatorStyle">
+        <item name="android:layout_marginTop">@dimen/content_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/colorSeparator</item>
+    </style>
+
+    <style name="SubHeadingStyle">
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="SubContentStyle">
+        <item name="android:paddingLeft">@dimen/content_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/content_horizontal_margin</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
 </resources>
